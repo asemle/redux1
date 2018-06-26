@@ -4,7 +4,7 @@ import './App.css';
 import Posts from './components/Posts';
 import Postform from './components/Postform';
 import {Provider} from 'react-redux';
-import store from 'store'
+import store from './store'
 
 class App extends Component {
   render() {
